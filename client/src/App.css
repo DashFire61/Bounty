@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-image: url("moving-stars-on-black-background_41x3vg3x__F0000.png");
+  color: yellow;
+}
+
+button {
+  color: yellow;
+  background-color: black;
+  border-color: yellow;
+}
+
+input {
+  color: yellow;
+  background-color: black;
+  display: block;
+  border-color: yellow;
+}
+.formDiv{
+  width: 50%;
+}
+input::-webkit-input-placeholder {
+  color: white !important;
+}
+   
+input:-moz-placeholder { /* Firefox 18- */
+  color: white !important;  
+}
+   
+input::-moz-placeholder {  /* Firefox 19+ */
+  color: white !important;  
+}
+   
+input:-ms-input-placeholder {  
+  color: white !important;  
+}
+
+.light {
+  color: #61dafb !important;
+}
+
+.lightName {
+  color: rgb(54, 43, 35) !important;
+  text-shadow: 0px -1px 0px rgba(0, 195, 255, 0.5);
+}
+
+.dark {
+  color: rgba(255, 0, 0, 0.411) !important;
+}
+.darkName {
+  color: rgb(0, 0, 0) !important;
+  text-shadow: 0px -1px 0px rgba(255, 0, 0, 0.5);
+}
+
+.grey{
+  color: rgba(128, 0, 128, 0.445) !important;
+}
+
+.greyName{
+  color: rgb(36, 36, 36) !important;
+  text-shadow: 0px -1px 0px rgba(255, 0, 255, 0.5);
+}
+
+.alive{
+  color: rgba(0, 128, 0, 0.445);
+}
+
+.dead{
+  color: rgba(220, 20, 60, 0.479);
+}
+
+.unknown{
+  color: rgba(255, 255, 255, 0.479);
+}
+
+.money{
+  color: rgba(36, 27, 24, 0.863) !important;
+}
+
+
+.results{
+  position: relative;
+  border-width: 5px;
+  border-color: rgb(36, 27, 24);
+  border-style: solid;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px;
+  background-image:url("Black-Etched-Steel-835x471.jpg");
+  background-size: auto 100%;
+  font-size: 25px;
+  text-shadow: 0px -1px 0px rgba(255,255,255,.5);
+}
+
+.jedi{
+  color: #2ea1007a !important;
+}
+.sith{
+  color: rgba(255, 0, 0, 0.5) !important;
+}
+.galacticrepublic{
+  color: rgba(131, 31, 31, 0.5) !important;
+}
+.CIS{
+  color: rgba(116, 146, 228, 0.466) !important;
+}
+.empire{
+  color: rgba(255, 0, 0, 0.479) !important;
+}
+.rebels{
+  color: #e4940075 !important;
+
+}
+.eternalempire{
+  color: rgba(255, 217, 0, 0.514) !important;
+}
+.oldrepublic{
+  color: rgba(131, 31, 31, 0.452) !important;
+}
+.oldsithempire{
+  color: rgba(255, 0, 0, 0.418) !important;
+}
+.newrepublic{
+  color: rgba(36, 102, 243, 0.486) !important;
+}
+.firstorder{
+  color: rgba(255, 0, 0, 0.438) !important;
+}
+.unaffiliated{
+  color: rgba(210, 180, 140, 0.486) !important;
+}
+.id{
+  color: rgba(36, 27, 24, 0.692) !important;
+}
+
+.x{
+  border-color: rgb(77, 70, 67);
+  background-color: rgba(36, 27, 24, 0) !important;
+  color: rgb(83, 65, 69);
+  font-size: 20px;
+  outline-color: rgba(145, 11, 11, 0);
+  text-shadow: 0px -1px 0px rgba(255,255,255,.5);
+  margin-left: 0%;
+  right: 0%;
+  position: relative;
+}
+.x2{
+  border-color: rgb(77, 70, 67);
+  background-color: rgba(36, 27, 24, 0) !important;
+  color: rgb(83, 65, 69);
+  font-size: 20px;
+  outline-color: rgba(145, 11, 11, 0);
+  text-shadow: 0px -1px 0px rgba(255,255,255,.5);
+  margin-left: 0%;
+  right: 1%;
+  top: 1%;
+  position: absolute;
+}
+
+
+.signin{
+  background-color: rgba(255, 255, 0, 0);
+  border-color: yellow;
+  border-style: solid;
+  position: absolute;
+  padding: 2%;
+  width: 10%;
+  left: 41%;
+  top: 35%
+}
+
+.signform{
+  position: relative;
+  width: 100%;
+}
